@@ -1,0 +1,24 @@
+
+main:
+
+  - title: "Imperceptible Text Steganography based on Group Chat"
+    authors: <u><strong>Fanxiao Li</strong></u>, Ping Wei, Tingchao Fu, Yu Lin, Wei Zhou
+    conference_short: ICME 
+    conference: IEEE International Conference on Multimedia and Expo <strong>(ICME)</strong>, 2024.
+    pdf: https://ieeexplore.ieee.org/abstract/document/10687958
+    image: ./assets/img/2024_ICME_GCStego.png
+  
+  - title: "Rewriting-Stego: generating natural and controllable steganographic text with pre-trained language model"
+    authors: <u><strong>Fanxiao Li</strong></u>, Sixing Wu, Jiong Yu, Shuoxin Wang, BingBing Song, Renyang Liu, Haoseng Lai, Wei Zhou
+    conference_short: DASFAA 
+    conference: International Conference on Database Systems for Advanced Applications <strong>(DASFAA)</strong>, 2023.
+    pdf: https://link.springer.com/chapter/10.1007/978-3-031-30637-2_41
+    image: ./assets/img/2023_DASFAA_RewritingStego.png
+
+  - title: "Enhancing Semantic Consistency in Linguistic Steganography via Denosing Auto-Encoder and Semantic-Constrained Huffman Coding"
+    authors: Shuoxin Wang, <u><strong>Fanxiao Li</strong></u>, Jiong Yu, Haosen Lai, Sixing Wu, Wei Zhou
+    conference_short: NLPCC 
+    conference: CCF International Conference on Natural Language Processing and Chinese Computing <strong>(NLPCC)</strong>, 2023.
+    pdf: https://link.springer.com/chapter/10.1007/978-3-031-44696-2_62
+    code: https://github.com/Y-NLP/LinguisticSteganography/tree/main/NLPCC2023_SPLS-AutoEncoder/bart_stego
+    image: ./assets/img/2023_NLPCC_SPLS-AutoEncoder.png

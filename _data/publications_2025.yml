@@ -1,0 +1,20 @@
+
+main:
+
+  - title: "CMIE: Combining MLLM Insights with External Evidence for Explainable Out-of-Context Misinformation Detection"
+    authors: <u><strong>Fanxiao Li</strong></u>, Jiaying Wu, Canyuan He, Wei Zhou
+    conference_short: ACL Findings
+    conference: The 63rd Annual Meeting of the Association for Computational Linguistics <strong>(ACL Findings)</strong>, 2025.
+    pdf: https://arxiv.org/abs/2505.23449 
+    code: https://github.com/fanxiao15/CMIE 
+    image: ./assets/img/2025_ACL_Findings_CMIE.png
+
+  - title: "IMRRF: Integrating Multi-Source Retrieval and Redundancy Filtering for LLM-based Fake News Detection"
+    authors: Dayang Li, <u><strong>Fanxiao Li</strong></u>, Bingbing Song, Li Tang, Wei Zhou
+    conference_short: NAACL 
+    conference: Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics <strong>(NAACL)</strong>, 2025.
+    pdf: https://aclanthology.org/2025.naacl-long.461/
+    code: https://github.com/quark233/IMRRF
+    image: ./assets/img/2025_NAACL_IMRRF.png
+
+ 
