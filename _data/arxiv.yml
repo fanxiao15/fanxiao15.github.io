@@ -1,13 +1,6 @@
 
 main:
 
-  - title: "Drifting Away from Truth: GenAI-Driven News Diversity Challenges LVLM-Based Misinformation Detection"
-    authors: <u><strong>Fanxiao Li</strong></u>, Jiaying Wu, Tingchao Fu, Yunyun Dong, Bingbing Song, Wei Zhou
-    conference_short: Preprint
-    conference: arXiv 2508.12711, 2025.
-    pdf: https://arxiv.org/abs/2508.12711
-    image: ./assets/img/2025_arxiv_DriftBench.png
-
   - title: "Seeing Through Deception: Uncovering Misleading Creator Intent in Multimodal News with Vision-Language Models"
     authors: Jiaying Wu, <u><strong>Fanxiao Li</strong></u>, Min-Yen Kan, Bryan Hooi
     conference_short: Preprint 
