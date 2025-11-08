@@ -1,6 +1,13 @@
 
 main:
-
+  - title: "Drifting Away from Truth: GenAI-Driven News Diversity Challenges LVLM-Based Misinformation Detection"
+    authors: <u><strong>Fanxiao Li</strong></u>, Jiaying Wu, Tingchao Fu, Yunyun Dong, Bingbing Song, Wei Zhou
+    conference_short: AAAI
+    conference: The 40th Annual AAAI Conference on Artificial Intelligence <strong>(AAAI)</strong>, 2026.
+    pdf: https://arxiv.org/abs/2508.12711
+    code: https://github.com/fanxiao15/DriftBench
+    image: ./assets/img/2025_arxiv_DriftBench.png
+    
   - title: "CMIE: Combining MLLM Insights with External Evidence for Explainable Out-of-Context Misinformation Detection"
     authors: <u><strong>Fanxiao Li</strong></u>, Jiaying Wu, Canyuan He, Wei Zhou
     conference_short: ACL Findings
