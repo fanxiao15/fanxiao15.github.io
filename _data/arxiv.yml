@@ -1,21 +1,21 @@
 
 main:
 
-- title: "Seeing Through Deception: Uncovering Misleading Creator Intent in Multimodal News with Vision-Language Models"
+ - title: "Seeing Through Deception: Uncovering Misleading Creator Intent in Multimodal News with Vision-Language Models"
     authors: Jiaying Wu, <u><strong>Fanxiao Li</strong></u>, Min-Yen Kan, Bryan Hooi
     conference_short: Preprint 
     conference: arXiv 2505.15489, 2025.
     pdf: https://arxiv.org/abs/2505.15489
     image: ./assets/img/2025_arxiv_DeceptionDecoder.png
 
-- title: "Beyond the Crowd: LLM-Augmented Community Notes for Governing Health Misinformation"
+ - title: "Beyond the Crowd: LLM-Augmented Community Notes for Governing Health Misinformation"
     authors: Jiaying Wu, Zihang Fu, Haonan Wang, <u><strong>Fanxiao Li</strong></u>, Min-Yen Kan
     conference_short: Preprint 
     conference: arXiv 2510.11423, 2025.
     pdf: https://arxiv.org/abs/2510.11423
     image: ./assets/img/2025_arxiv_CrowdNotes.png
 
-- title: "Drifting Away from Truth: GenAI-Driven News Diversity Challenges LVLM-Based Misinformation Detection"
+ - title: "Drifting Away from Truth: GenAI-Driven News Diversity Challenges LVLM-Based Misinformation Detection"
     authors: <u><strong>Fanxiao Li</strong></u>, Jiaying Wu, Tingchao Fu, Yunyun Dong, Bingbing Song, Wei Zhou
     conference_short: AAAI
     conference: The 40th Annual AAAI Conference on Artificial Intelligence <strong>(AAAI)</strong>, 2026.
@@ -23,7 +23,7 @@ main:
     code: https://github.com/fanxiao15/DriftBench
     image: ./assets/img/2025_arxiv_DriftBench.png
 
-- title: "CMIE: Combining MLLM Insights with External Evidence for Explainable Out-of-Context Misinformation Detection"
+ - title: "CMIE: Combining MLLM Insights with External Evidence for Explainable Out-of-Context Misinformation Detection"
     authors: <u><strong>Fanxiao Li</strong></u>, Jiaying Wu, Canyuan He, Wei Zhou
     conference_short: ACL Findings
     conference: The 63rd Annual Meeting of the Association for Computational Linguistics <strong>(ACL Findings)</strong>, 2025.
@@ -31,7 +31,7 @@ main:
     code: https://github.com/fanxiao15/CMIE 
     image: ./assets/img/2025_ACL_Findings_CMIE.png
 
-- title: "IMRRF: Integrating Multi-Source Retrieval and Redundancy Filtering for LLM-based Fake News Detection"
+ - title: "IMRRF: Integrating Multi-Source Retrieval and Redundancy Filtering for LLM-based Fake News Detection"
     authors: Dayang Li, <u><strong>Fanxiao Li</strong></u>, Bingbing Song, Li Tang, Wei Zhou
     conference_short: NAACL 
     conference: Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics <strong>(NAACL)</strong>, 2025.
@@ -39,21 +39,21 @@ main:
     code: https://github.com/quark233/IMRRF
     image: ./assets/img/2025_NAACL_IMRRF.png
 
-- title: "Imperceptible Text Steganography based on Group Chat"
+ - title: "Imperceptible Text Steganography based on Group Chat"
     authors: <u><strong>Fanxiao Li</strong></u>, Ping Wei, Tingchao Fu, Yu Lin, Wei Zhou
     conference_short: ICME 
     conference: IEEE International Conference on Multimedia and Expo <strong>(ICME)</strong>, 2024.
     pdf: https://ieeexplore.ieee.org/abstract/document/10687958
     image: ./assets/img/2024_ICME_GCStego.png
   
-- title: "Rewriting-Stego: generating natural and controllable steganographic text with pre-trained language model"
+ - title: "Rewriting-Stego: generating natural and controllable steganographic text with pre-trained language model"
     authors: <u><strong>Fanxiao Li</strong></u>, Sixing Wu, Jiong Yu, Shuoxin Wang, BingBing Song, Renyang Liu, Haoseng Lai, Wei Zhou
     conference_short: DASFAA 
     conference: International Conference on Database Systems for Advanced Applications <strong>(DASFAA)</strong>, 2023.
     pdf: https://link.springer.com/chapter/10.1007/978-3-031-30637-2_41
     image: ./assets/img/2023_DASFAA_RewritingStego.png
 
-- title: "Enhancing Semantic Consistency in Linguistic Steganography via Denosing Auto-Encoder and Semantic-Constrained Huffman Coding"
+ - title: "Enhancing Semantic Consistency in Linguistic Steganography via Denosing Auto-Encoder and Semantic-Constrained Huffman Coding"
     authors: Shuoxin Wang, <u><strong>Fanxiao Li</strong></u>, Jiong Yu, Haosen Lai, Sixing Wu, Wei Zhou
     conference_short: NLPCC 
     conference: CCF International Conference on Natural Language Processing and Chinese Computing <strong>(NLPCC)</strong>, 2023.
