@@ -36,7 +36,7 @@ I am currently pursuing my Ph.D. at [Yunnan University](https://www.ynu.edu.cn/)
 
 - 2025.05, China Scholarship Council (CSC) Scholarship
 - 2024.04, Outstanding Graduate of Yunnan University
-- 2023.12, National Scholarship
+- 2023.12, China National Scholarship
 
 ## 📖 Educations
 - 2025.09 – 2026.09, Visiting Ph.D. Student, School of Computing, National University of Singapore
