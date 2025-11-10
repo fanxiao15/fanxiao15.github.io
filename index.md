@@ -24,6 +24,8 @@ I am currently pursuing my Ph.D. at [Yunnan University](https://www.ynu.edu.cn/)
 
 {% include_relative _includes/arxiv.md %}
 
+{% include_relative _includes/publications_2026.md %}
+
 {% include_relative _includes/publications_2025.md %}
 
 {% include_relative _includes/publications_2024.md %}
