@@ -15,9 +15,9 @@ I am currently pursuing my Ph.D. at [Yunnan University](https://www.ynu.edu.cn/)
 
 
 ## 🔥 News
--  🎉🎉🎉 **[Nov. 2025]** One paper about [News Diversity & Misinformation](https://arxiv.org/abs/2508.12711) has been accepted to <span style="color:darkred;">AAAI 2026! </span>
--  🎉🎉🎉 **[May. 2025]** One paper about [OOC Misinformation Detection](https://arxiv.org/abs/2505.23449) has been accepted to <span style="color:darkred;">ACL 2025 (Findings)! </span> 
--  🎉🎉🎉 **[Jan. 2025]** One paper about [Multi-Source Fake News Dtection](https://aclanthology.org/2025.naacl-long.461/) has been accepted to <span style="color:darkred;">NAACL 2025! </span> 
+-  🎉🎉🎉 **[Nov. 2025]** One paper has been accepted to <span style="color:darkred;">AAAI 2026! </span>
+-  🎉🎉🎉 **[May. 2025]** One paper has been accepted to <span style="color:darkred;">ACL 2025 (Findings)! </span> 
+-  🎉🎉🎉 **[Jan. 2025]** One paper has been accepted to <span style="color:darkred;">NAACL 2025! </span> 
 
 
 ## 📝 Publications/Preprints
