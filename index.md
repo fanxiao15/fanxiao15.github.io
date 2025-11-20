@@ -16,7 +16,7 @@ I am currently pursuing my Ph.D. at [Yunnan University](https://www.ynu.edu.cn/)
 
 ## 🔥 News
 -  🎉🎉🎉 **[Nov. 2025]** One paper accepted to <span style="color:darkred;">[AAAI 2026](https://aaai.org/conference/aaai/aaai-26/)! </span>
--  🎉🎉🎉 **[May. 2025]** One paper accepted to <span style="color:darkred;">[ACL 2025 (Findings)](https://2025.aclweb.org)! </span> 
+-  🎉🎉🎉 **[May. 2025]** One paper accepted to <span style="color:darkred;">[ACL 2025](https://2025.aclweb.org)! </span> 
 -  🎉🎉🎉 **[Jan. 2025]** One paper accepted to <span style="color:darkred;">[NAACL 2025](https://2025.naacl.org)! </span> 
 
 
