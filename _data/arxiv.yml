@@ -1,7 +1,7 @@
 main:
 
   - title: "Seeing Through Deception: Uncovering Misleading Creator Intent in Multimodal News with Vision-Language Models"
-    authors: Jiaying Wu, <u><strong>Fanxiao Li</strong></u>, Min-Yen Kan, Bryan Hooi
+    authors: Jiaying Wu, <u><strong>Fanxiao Li</strong></u>, Zihang Fu, Min-Yen Kan, Bryan Hooi
     conference_short: Preprint 
     conference: arXiv 2505.15489, 2025.
     pdf: https://arxiv.org/abs/2505.15489
