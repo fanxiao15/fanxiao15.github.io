@@ -1,5 +1,19 @@
 main:
 
+  - title: "What's Left Unsaid? Detecting and Correcting Misleading Omissions in Multimodal News Previews"
+    authors: <u><strong>Fanxiao Li</strong></u>, Jiaying Wu, Tingchao Fu, Dayang Li, Herun Wan, Min-Yen Kan
+    conference_short: Preprint 
+    # conference: arXiv 2505.15489, 2025.
+    # pdf: https://arxiv.org/abs/2505.15489
+    image: ./assets/img/OMGuard.png
+
+  - title: "The Facade of Truth: Uncovering and Mitigating LLM Susceptibility to Deceptive Evidence"
+    authors: Herun Wan, Jiaying Wu, Minnan Luo, <u><strong>Fanxiao Li</strong></u>, Zhi Zeng, Min-Yen Kan
+    conference_short: Preprint 
+    # conference: arXiv 2505.15489, 2025.
+    # pdf: https://arxiv.org/abs/2505.15489
+    image: ./assets/img/MisBelief.png
+
   - title: "Seeing Through Deception: Uncovering Misleading Creator Intent in Multimodal News with Vision-Language Models"
     authors: Jiaying Wu, <u><strong>Fanxiao Li</strong></u>, Zihang Fu, Min-Yen Kan, Bryan Hooi
     conference_short: Preprint 
@@ -12,7 +26,7 @@ main:
     conference_short: Preprint 
     conference: arXiv 2510.11423, 2025.
     pdf: https://arxiv.org/abs/2510.11423
-    image: ./assets/img/2025_arxiv_CrowdNotes.png
+    image: ./assets/img/CrowdNotes.png
 
   - title: "Drifting Away from Truth: GenAI-Driven News Diversity Challenges LVLM-Based Misinformation Detection"
     authors: <u><strong>Fanxiao Li</strong></u>, Jiaying Wu, Tingchao Fu, Yunyun Dong, Bingbing Song, Wei Zhou

@@ -11,7 +11,7 @@ I am currently pursuing my Ph.D. at [Yunnan University](https://www.ynu.edu.cn/)
 ## 💡 Research Interests
 
 - **Misinformation and Disinformation:** Identification and regulation of misleading, false, or manipulated content, particularly in the context of generative artificial intelligence.
-- **Trustworthy Artificial Intelligence:** Exploring model reliability, including adversarial attacks, hallucinations, and related issues.
+- **Trustworthy Artificial Intelligence:** Exploring model reliability, including robustness, hallucinations, and related issues.
 
 
 ## 🔥 News
