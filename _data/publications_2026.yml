@@ -6,4 +6,11 @@ main:
     conference: The 40th Annual AAAI Conference on Artificial Intelligence <strong>(AAAI)</strong>, 2026.
     pdf: https://arxiv.org/abs/2508.12711
     code: https://github.com/fanxiao15/DriftBench
-    image: ./assets/img/2025_arxiv_DriftBench.png
+    image: ./assets/img/2026_AAAI_DriftBench.png
+
+  - title: "Seeing Through Deception: Uncovering Misleading Creator Intent in Multimodal News with Vision-Language Models"
+    authors: Jiaying Wu, <u><strong>Fanxiao Li</strong></u>, Zihang Fu, Min-Yen Kan, Bryan Hooi
+    conference_short: ICLR 
+    conference: The Fourteenth International Conference on Learning Representations <strong>(ICLR)</strong>, 2026.
+    pdf: https://arxiv.org/abs/2505.15489
+    image: ./assets/img/2026_ICLR_DeceptionDecoder.png

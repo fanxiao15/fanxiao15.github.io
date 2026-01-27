@@ -10,11 +10,12 @@ I am currently pursuing my Ph.D. at [Yunnan University](https://www.ynu.edu.cn/)
 
 ## 💡 Research Interests
 
-- **Misinformation and Disinformation:** Identification and regulation of misleading, false, or manipulated content, particularly in the context of generative artificial intelligence.
+- **Misinformation Governance:** Identification and regulation of misleading, false, or manipulated content, particularly in the context of generative artificial intelligence.
 - **Trustworthy Artificial Intelligence:** Exploring model reliability, including robustness, hallucinations, and related issues.
 
 
 ## 🔥 News
+-  🎉🎉🎉 **[Jan. 2026]** One paper accepted to <span style="color:darkred;">[ICLR 2026](https://iclr.cc/Conferences/2026)! </span>
 -  🎉🎉🎉 **[Nov. 2025]** One paper accepted to <span style="color:darkred;">[AAAI 2026](https://aaai.org/conference/aaai/aaai-26/)! </span>
 -  🎉🎉🎉 **[May. 2025]** One paper accepted to <span style="color:darkred;">[ACL 2025](https://2025.aclweb.org)! </span> 
 -  🎉🎉🎉 **[Jan. 2025]** One paper accepted to <span style="color:darkred;">[NAACL 2025](https://2025.naacl.org)! </span> 
