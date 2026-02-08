@@ -15,12 +15,12 @@ I am currently pursuing my Ph.D. at [Yunnan University](https://www.ynu.edu.cn/)
 
 
 ## 🔥 News
--  <span style="color:darkred;">[Jan. 2026]</span> One paper accepted to <span style="color:darkred;">[ICLR 2026](https://iclr.cc/Conferences/2026)! </span>
--  <span style="color:darkred;">[Jan. 2026]</span> I presented our work at <span style="color:darkred;">[SSNLP 2026](https://wing.comp.nus.edu.sg/event/26-01-21-ssnlp/)! </span>
--  <span style="color:darkred;">[Nov. 2025]</span> One paper accepted to <span style="color:darkred;">[AAAI 2026](https://aaai.org/conference/aaai/aaai-26/)! </span>
--  <span style="color:darkred;">[Nov. 2025]</span> I started my visiting at <span style="color:darkred;">[WING](https://wing.comp.nus.edu.sg)! </span>
--  <span style="color:darkred;">[May. 2025]</span> One paper accepted to <span style="color:darkred;">[ACL 2025](https://2025.aclweb.org)! </span> 
--  <span style="color:darkred;">[Jan. 2025]</span> One paper accepted to <span style="color:darkred;">[NAACL 2025](https://2025.naacl.org)! </span> 
+-  <span style="color:darkred;">[Jan. 2026]</span> One paper accepted to <span style="color:darkred;">[ICLR 2026!](https://iclr.cc/Conferences/2026) </span>
+-  <span style="color:darkred;">[Jan. 2026]</span> I presented our work at <span style="color:darkred;">[SSNLP 2026!](https://wing.comp.nus.edu.sg/event/26-01-21-ssnlp/) </span>
+-  <span style="color:darkred;">[Nov. 2025]</span> One paper accepted to <span style="color:darkred;">[AAAI 2026!](https://aaai.org/conference/aaai/aaai-26/) </span>
+-  <span style="color:darkred;">[Sep. 2025]</span> I started my visiting at <span style="color:darkred;">[WING!](https://wing.comp.nus.edu.sg) </span>
+-  <span style="color:darkred;">[May. 2025]</span> One paper accepted to <span style="color:darkred;">[ACL 2025!](https://2025.aclweb.org) </span> 
+-  <span style="color:darkred;">[Jan. 2025]</span> One paper accepted to <span style="color:darkred;">[NAACL 2025!](https://2025.naacl.org) </span> 
 
 
 ## 📝 Publications/Preprints
