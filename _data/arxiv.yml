@@ -16,7 +16,7 @@ main:
     image: ./assets/img/2026_ACL_OMGuard.png
 
   - title: "Beyond the Crowd: LLM-Augmented Community Notes for Governing Health Misinformation"
-    authors: Jiaying Wu, Zihang Fu, Haonan Wang, <u><strong>Fanxiao Li</strong></u>, Min-Yen Kan
+    authors: Jiaying Wu, Zihang Fu, Haonan Wang, <u><strong>Fanxiao Li</strong></u>, Jiafeng Guo, Preslav Nakov, Min-Yen Kan
     conference_short: ACL 
     conference: The 64rd Annual Meeting of the Association for Computational Linguistics <strong>(ACL)</strong>, 2026
     pdf: https://arxiv.org/abs/2510.11423
