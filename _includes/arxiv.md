@@ -5,7 +5,6 @@
 <ol class="bibliography">
 
   <p>
-    <br>
     <em>( <sup>*</sup> indicates equal contribution, <sup>†</sup> indicates corresponding author.) </em>
   </p>
 
