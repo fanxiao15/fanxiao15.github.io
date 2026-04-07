@@ -10,11 +10,14 @@ I am currently pursuing my Ph.D. at [Yunnan University](https://www.ynu.edu.cn/)
 
 ## 💡 Research Interests
 
-- **Misinformation Governance:** Identification and regulation of misleading, false, or manipulated content, particularly in the context of generative artificial intelligence.
-- **Trustworthy Artificial Intelligence:** Exploring model reliability, including robustness, hallucinations, and related issues.
+My research interests focus on **trustworthy social intelligence**, with an emphasis on the reliable perception, safe interaction, and trustworthy decision-making of agentic systems in complex social information environments, as well as the detection and mitigation of mis/disinformation. My research includes:
+
+- **Trustworthy Agentic Systems:** I investigate how agentic systems can operate reliably in complex social information environments, with a focus on resisting malicious manipulation, mitigating hallucinations and misinformation, and enhancing robustness, reliability, and social intelligence.
+- **Mis/disinformation Governance:** I explore various forms of information distortion in social networks, including factual inaccuracies, news framing, news diversity, and information omission, with the goal of developing advanced methods for detection, analysis, and intervention to reduce their impact on social cognition and public decision-making.
 
 
 ## 🔥 News
+-  <span style="color:darkred;">[Apr. 2026]</span> Three paper accepted to <span style="color:darkred;">[ACL 2026 Main!](https://2026.aclweb.org/) </span>
 -  <span style="color:darkred;">[Jan. 2026]</span> One paper accepted to <span style="color:darkred;">[ICLR 2026!](https://iclr.cc/Conferences/2026) </span>
 -  <span style="color:darkred;">[Jan. 2026]</span> I presented our work at <span style="color:darkred;">[SSNLP 2026!](https://wing.comp.nus.edu.sg/event/26-01-21-ssnlp/) </span>
 -  <span style="color:darkred;">[Nov. 2025]</span> One paper accepted to <span style="color:darkred;">[AAAI 2026!](https://aaai.org/conference/aaai/aaai-26/) </span>
