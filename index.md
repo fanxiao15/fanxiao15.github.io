@@ -5,7 +5,7 @@ layout: homepage
 ## Welcome to Fanxiao's Homepage!
 
 
-I am currently pursuing my Ph.D. at [Yunnan University](https://www.ynu.edu.cn/) , supervised by Prof. [Wei Zhou](http://www.ymi.ynu.edu.cn/info/1033/1152.htm). I am also a Visiting Ph.D. Student at the [National University of Singapore (NUS)](https://nus.edu.sg/), supported by CSC scholarship (Sep 2025 – Sep 2026), working with Prof. [Min-Yen Kan](https://www.comp.nus.edu.sg/~kanmy/) and affiliated with [NUS Web IR / NLP Group (WING)](https://wing.comp.nus.edu.sg/).
+I am currently pursuing my Ph.D. at [Yunnan University](https://www.ynu.edu.cn/) , supervised by Prof. [Wei Zhou](http://www.ymi.ynu.edu.cn/info/1033/1152.htm). I am also a Visiting Ph.D. Student at the [National University of Singapore (NUS)](https://nus.edu.sg/), supported by CSC scholarship (Sep 2025 – Sep 2026), working with Prof. [Min-Yen Kan](https://www.comp.nus.edu.sg/~kanmy/) and [Jiaying](https://jiayingwu19.github.io/) at [NUS Web IR / NLP Group (WING)](https://wing.comp.nus.edu.sg/).
 
 
 ## 💡 Research Interests
@@ -17,16 +17,20 @@ My research interests focus on <span style="font-weight:900; color:#111;">trustw
 
 
 ## 🔥 News
--  <span style="color:darkred;">[Apr. 2026]</span> Three paper accepted to <span style="color:darkred;">[ACL 2026 Main!](https://2026.aclweb.org/) </span>
--  <span style="color:darkred;">[Jan. 2026]</span> One paper accepted to <span style="color:darkred;">[ICLR 2026!](https://iclr.cc/Conferences/2026) </span>
--  <span style="color:darkred;">[Jan. 2026]</span> I presented our work at <span style="color:darkred;">[SSNLP 2026!](https://wing.comp.nus.edu.sg/event/26-01-21-ssnlp/) </span>
--  <span style="color:darkred;">[Nov. 2025]</span> One paper accepted to <span style="color:darkred;">[AAAI 2026!](https://aaai.org/conference/aaai/aaai-26/) </span>
--  <span style="color:darkred;">[Sep. 2025]</span> I started my visiting at <span style="color:darkred;">[WING!](https://wing.comp.nus.edu.sg) </span>
--  <span style="color:darkred;">[May. 2025]</span> One paper accepted to <span style="color:darkred;">[ACL 2025!](https://2025.aclweb.org) </span> 
--  <span style="color:darkred;">[Jan. 2025]</span> One paper accepted to <span style="color:darkred;">[NAACL 2025!](https://2025.naacl.org) </span> 
+<div style="max-height: 180px; overflow-y: auto; border: 2px solid #e0e0e0; border-radius: 8px; padding: 12px; background: #fafbfc; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
+	<ul style="margin:0; padding-left: 18px;">
+		<li><span style="color:darkred;">[Apr. 2026]</span> Three paper accepted to <a href="https://2026.aclweb.org/">ACL 2026 Main!</a></li>
+		<li><span style="color:darkred;">[Jan. 2026]</span> One paper accepted to <a href="https://iclr.cc/Conferences/2026">ICLR 2026!</a></li>
+		<li><span style="color:darkred;">[Jan. 2026]</span> I presented our work at <a href="https://wing.comp.nus.edu.sg/event/26-01-21-ssnlp/">SSNLP! </a></li>
+		<li><span style="color:darkred;">[Nov. 2025]</span> One paper accepted to <a href="https://aaai.org/conference/aaai/aaai-26/">AAAI 2026!</a></li>
+		<li><span style="color:darkred;">[Sep. 2025]</span> I started my visiting at <a href="https://wing.comp.nus.edu.sg">WING!</a></li>
+		<li><span style="color:darkred;">[May. 2025]</span> One paper accepted to <a href="https://2025.aclweb.org">ACL 2025!</a></li>
+		<li><span style="color:darkred;">[Jan. 2025]</span> One paper accepted to <a href="https://2025.naacl.org">NAACL 2025!</a></li>
+	</ul>
+</div>
 
 
-## 📝 Publications/Preprints
+## 📝 Selected Publications/Preprints
 
 {% include_relative _includes/arxiv.md %}
 

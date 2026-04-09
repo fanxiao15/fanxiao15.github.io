@@ -5,6 +5,8 @@
 <ol class="bibliography">
 
   <p>
+    Please see my <a href="https://scholar.google.com/citations?user=jUOhfIUAAAAJ">Google Scholar</a> for a full, up-to-date list.
+    <br>
     <em>( <sup>*</sup> indicates equal contribution, <sup>†</sup> indicates corresponding author.) </em>
   </p>
 

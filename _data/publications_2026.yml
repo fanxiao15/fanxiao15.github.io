@@ -5,6 +5,7 @@ main:
     conference_short: ACL 
     conference: The 64rd Annual Meeting of the Association for Computational Linguistics <strong>(ACL)</strong>, 2026
     pdf: https://arxiv.org/abs/2601.05563
+    code: https://github.com/fanxiao15/OMGuard
     image: ./assets/img/2026_ACL_OMGuard.png
 
   - title: "Beyond the Crowd: LLM-Augmented Community Notes for Governing Health Misinformation"
@@ -26,6 +27,7 @@ main:
     conference_short: ICLR 
     conference: The Fourteenth International Conference on Learning Representations <strong>(ICLR)</strong>, 2026.
     pdf: https://arxiv.org/abs/2505.15489
+    code: https://github.com/jiayingwu19/DeceptionDecoded
     image: ./assets/img/2026_ICLR_DeceptionDecoder.png
 
   - title: "Drifting Away from Truth: GenAI-Driven News Diversity Challenges LVLM-Based Misinformation Detection"

@@ -1,22 +1,23 @@
 main:
 
-  - title: "The Facade of Truth: Uncovering and Mitigating LLM Susceptibility to Deceptive Evidence"
-    authors: Herun Wan, Jiaying Wu, Minnan Luo, <u><strong>Fanxiao Li</strong></u>, Zhi Zeng, Min-Yen Kan
-    conference_short: Preprint 
-    conference: arXiv 2601.05478, 2026.
-    pdf: https://arxiv.org/abs/2601.05478
-    code: https://github.com/whr000001/MisBelief
-    image: ./assets/img/MisBelief.png
+  # - title: "The Facade of Truth: Uncovering and Mitigating LLM Susceptibility to Deceptive Evidence"
+  #   authors: Herun Wan, Jiaying Wu, Minnan Luo, <u><strong>Fanxiao Li</strong></u>, Zhi Zeng, Min-Yen Kan
+  #   conference_short: Preprint 
+  #   conference: arXiv 2601.05478, 2026.
+  #   pdf: https://arxiv.org/abs/2601.05478
+  #   code: https://github.com/whr000001/MisBelief
+  #   image: ./assets/img/MisBelief.png
 
   - title: "What's Left Unsaid? Detecting and Correcting Misleading Omissions in Multimodal News Previews"
     authors: <u><strong>Fanxiao Li</strong></u>, Jiaying Wu, Tingchao Fu, Dayang Li, Herun Wan, Wei Zhou, Min-Yen Kan
     conference_short: ACL 
     conference: The 64rd Annual Meeting of the Association for Computational Linguistics <strong>(ACL)</strong>, 2026
     pdf: https://arxiv.org/abs/2601.05563
+    code: https://github.com/fanxiao15/OMGuard
     image: ./assets/img/2026_ACL_OMGuard.png
 
   - title: "Beyond the Crowd: LLM-Augmented Community Notes for Governing Health Misinformation"
-    authors: Jiaying Wu, Zihang Fu, Haonan Wang, <u><strong>Fanxiao Li</strong></u>, Jiafeng Guo, Preslav Nakov, Min-Yen Kan
+    authors: Jiaying Wu<sup>*</sup>, Zihang Fu<sup>*</sup>, Haonan Wang, <u><strong>Fanxiao Li</strong></u>, Jiafeng Guo, Preslav Nakov, Min-Yen Kan
     conference_short: ACL 
     conference: The 64rd Annual Meeting of the Association for Computational Linguistics <strong>(ACL)</strong>, 2026
     pdf: https://arxiv.org/abs/2510.11423
@@ -34,6 +35,7 @@ main:
     conference_short: ICLR 
     conference: The Fourteenth International Conference on Learning Representations <strong>(ICLR)</strong>, 2026.
     pdf: https://arxiv.org/abs/2505.15489
+    code: https://github.com/jiayingwu19/DeceptionDecoded
     image: ./assets/img/2026_ICLR_DeceptionDecoder.png
 
   - title: "Drifting Away from Truth: GenAI-Driven News Diversity Challenges LVLM-Based Misinformation Detection"
