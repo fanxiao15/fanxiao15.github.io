@@ -17,7 +17,7 @@ My research interests focus on <span style="font-weight:900; color:#111;">trustw
 
 
 ## 🔥 News
-<div style="max-height: 180px; overflow-y: auto; border: 2px solid #e0e0e0; border-radius: 8px; padding: 12px; background: #fafbfc; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
+<div style="max-height: 180px; overflow-y: auto; border: 2px solid #e4e3e3; border-radius: 8px; padding: 12px; background: #fafbfc; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
 	<ul style="margin:0; padding-left: 18px;">
 		<li><span style="color:darkred;">[Apr. 2026]</span> Three papers accepted to <a href="https://2026.aclweb.org/">ACL 2026 Main!</a></li>
 		<li><span style="color:darkred;">[Jan. 2026]</span> One paper accepted to <a href="https://iclr.cc/Conferences/2026">ICLR 2026!</a></li>
