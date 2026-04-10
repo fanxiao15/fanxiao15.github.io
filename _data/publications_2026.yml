@@ -3,37 +3,43 @@ main:
   - title: "What's Left Unsaid? Detecting and Correcting Misleading Omissions in Multimodal News Previews"
     authors: <u><strong>Fanxiao Li</strong></u>, Jiaying Wu, Tingchao Fu, Dayang Li, Herun Wan, Wei Zhou, Min-Yen Kan
     conference_short: ACL 
-    conference: The 64rd Annual Meeting of the Association for Computational Linguistics <strong>(ACL)</strong>, 2026
+    conference: The 64rd Annual Meeting of the Association for Computational Linguistics 
+    conference_short_desc: <strong>ACL 2026</strong>
     pdf: https://arxiv.org/abs/2601.05563
     code: https://github.com/fanxiao15/OMGuard
     image: ./assets/img/2026_ACL_OMGuard.png
 
   - title: "Beyond the Crowd: LLM-Augmented Community Notes for Governing Health Misinformation"
-    authors: Jiaying Wu, Zihang Fu, Haonan Wang, <u><strong>Fanxiao Li</strong></u>, Jiafeng Guo, Preslav Nakov, Min-Yen Kan
+    authors: Jiaying Wu<sup>*</sup>, Zihang Fu<sup>*</sup>, Haonan Wang, <u><strong>Fanxiao Li</strong></u>, Jiafeng Guo, Preslav Nakov, Min-Yen Kan
     conference_short: ACL 
-    conference: The 64rd Annual Meeting of the Association for Computational Linguistics <strong>(ACL)</strong>, 2026
+    conference: The 64rd Annual Meeting of the Association for Computational Linguistics 
+    conference_short_desc: <strong>ACL 2026</strong>
     pdf: https://arxiv.org/abs/2510.11423
     image: ./assets/img/2026_ACL_CrowdNotes.png
 
   - title: "Correct When Paired, Wrong When Split: Decoupling and Editing Modality-Specific Neurons in MLLMs"
     authors: Tingchao Fu<sup>*</sup>, WenKai Wang<sup>*</sup>, <u><strong>Fanxiao Li</strong></u>, Huadong Zhang, Jinghong Zhang, Dayang Li, Yunyun Dong, Renyang Liu,  Wei Zhou
     conference_short: ACL 
-    conference: The 64rd Annual Meeting of the Association for Computational Linguistics <strong>(ACL)</strong>, 2026
+    conference: The 64rd Annual Meeting of the Association for Computational Linguistics 
+    conference_short_desc: <strong>ACL 2026</strong>
     # pdf: https://arxiv.org/abs/2601.05563
     image: ./assets/img/2026_ACL_DecoderEdit.png
 
   - title: "Seeing Through Deception: Uncovering Misleading Creator Intent in Multimodal News with Vision-Language Models"
     authors: Jiaying Wu, <u><strong>Fanxiao Li</strong></u>, Zihang Fu, Min-Yen Kan, Bryan Hooi
     conference_short: ICLR 
-    conference: The Fourteenth International Conference on Learning Representations <strong>(ICLR)</strong>, 2026.
-    pdf: https://arxiv.org/abs/2505.15489
+    conference: The Fourteenth International Conference on Learning Representations
+    conference_short_desc: <strong>ICLR 2026</strong>
+    pdf: https://openreview.net/pdf?id=02NbD16OnA
     code: https://github.com/jiayingwu19/DeceptionDecoded
     image: ./assets/img/2026_ICLR_DeceptionDecoder.png
 
   - title: "Drifting Away from Truth: GenAI-Driven News Diversity Challenges LVLM-Based Misinformation Detection"
     authors: <u><strong>Fanxiao Li</strong></u>, Jiaying Wu, Tingchao Fu, Yunyun Dong, Bingbing Song, Wei Zhou
     conference_short: AAAI
-    conference: The 40th Annual AAAI Conference on Artificial Intelligence <strong>(AAAI)</strong>, 2026.
+    conference: The 40th Annual AAAI Conference on Artificial Intelligence
+    conference_short_desc: <strong>AAAI 2026</strong>
     pdf: https://arxiv.org/abs/2508.12711
     code: https://github.com/fanxiao15/DriftBench
     image: ./assets/img/2026_AAAI_DriftBench.png
+
