@@ -12,6 +12,7 @@ main:
     authors: <u><strong>Fanxiao Li</strong></u>, Jiaying Wu, Tingchao Fu, Dayang Li, Herun Wan, Wei Zhou, Min-Yen Kan
     conference_short: ACL 
     conference: The 64rd Annual Meeting of the Association for Computational Linguistics <strong>(ACL)</strong>, 2026
+    conference: <strong>ACL 2026</strong>
     pdf: https://arxiv.org/abs/2601.05563
     code: https://github.com/fanxiao15/OMGuard
     image: ./assets/img/2026_ACL_OMGuard.png
