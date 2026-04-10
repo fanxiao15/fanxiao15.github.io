@@ -11,8 +11,8 @@ main:
   - title: "What's Left Unsaid? Detecting and Correcting Misleading Omissions in Multimodal News Previews"
     authors: <u><strong>Fanxiao Li</strong></u>, Jiaying Wu, Tingchao Fu, Dayang Li, Herun Wan, Wei Zhou, Min-Yen Kan
     conference_short: ACL 
-    conference: The 64rd Annual Meeting of the Association for Computational Linguistics <strong>(ACL)</strong>, 2026
-    conference: <strong>ACL 2026</strong>
+    conference: The 64rd Annual Meeting of the Association for Computational Linguistics 
+    conference_short_desc: <strong>ACL 2026</strong>
     pdf: https://arxiv.org/abs/2601.05563
     code: https://github.com/fanxiao15/OMGuard
     image: ./assets/img/2026_ACL_OMGuard.png
@@ -20,14 +20,16 @@ main:
   - title: "Beyond the Crowd: LLM-Augmented Community Notes for Governing Health Misinformation"
     authors: Jiaying Wu<sup>*</sup>, Zihang Fu<sup>*</sup>, Haonan Wang, <u><strong>Fanxiao Li</strong></u>, Jiafeng Guo, Preslav Nakov, Min-Yen Kan
     conference_short: ACL 
-    conference: The 64rd Annual Meeting of the Association for Computational Linguistics <strong>(ACL)</strong>, 2026
+    conference: The 64rd Annual Meeting of the Association for Computational Linguistics 
+    conference_short_desc: <strong>ACL 2026</strong>
     pdf: https://arxiv.org/abs/2510.11423
     image: ./assets/img/2026_ACL_CrowdNotes.png
 
   - title: "Correct When Paired, Wrong When Split: Decoupling and Editing Modality-Specific Neurons in MLLMs"
     authors: Tingchao Fu<sup>*</sup>, WenKai Wang<sup>*</sup>, <u><strong>Fanxiao Li</strong></u>, Huadong Zhang, Jinghong Zhang, Dayang Li, Yunyun Dong, Renyang Liu,  Wei Zhou
     conference_short: ACL 
-    conference: The 64rd Annual Meeting of the Association for Computational Linguistics <strong>(ACL)</strong>, 2026
+    conference: The 64rd Annual Meeting of the Association for Computational Linguistics 
+    conference_short_desc: <strong>ACL 2026</strong>
     # pdf: https://arxiv.org/abs/2601.05563
     image: ./assets/img/2026_ACL_DecoderEdit.png
 
@@ -35,6 +37,7 @@ main:
     authors: Jiaying Wu, <u><strong>Fanxiao Li</strong></u>, Zihang Fu, Min-Yen Kan, Bryan Hooi
     conference_short: ICLR 
     conference: The Fourteenth International Conference on Learning Representations <strong>(ICLR)</strong>, 2026.
+    conference_short_desc: <strong>ICLR 2026</strong>
     pdf: https://arxiv.org/abs/2505.15489
     code: https://github.com/jiayingwu19/DeceptionDecoded
     image: ./assets/img/2026_ICLR_DeceptionDecoder.png
@@ -42,7 +45,8 @@ main:
   - title: "Drifting Away from Truth: GenAI-Driven News Diversity Challenges LVLM-Based Misinformation Detection"
     authors: <u><strong>Fanxiao Li</strong></u>, Jiaying Wu, Tingchao Fu, Yunyun Dong, Bingbing Song, Wei Zhou
     conference_short: AAAI
-    conference: The 40th Annual AAAI Conference on Artificial Intelligence <strong>(AAAI)</strong>, 2026.
+    conference: The 40th Annual AAAI Conference on Artificial Intelligence
+    conference_short_desc: <strong>AAAI 2026</strong>
     pdf: https://arxiv.org/abs/2508.12711
     code: https://github.com/fanxiao15/DriftBench
     image: ./assets/img/2026_AAAI_DriftBench.png
@@ -50,15 +54,16 @@ main:
   - title: "CMIE: Combining MLLM Insights with External Evidence for Explainable Out-of-Context Misinformation Detection"
     authors: <u><strong>Fanxiao Li</strong></u>, Jiaying Wu, Canyuan He, Wei Zhou
     conference_short: ACL Findings
-    conference: The 63rd Annual Meeting of the Association for Computational Linguistics <strong>(ACL Findings)</strong>, 2025.
-    pdf: https://arxiv.org/abs/2505.23449 
+    conference: The 63rd Annual Meeting of the Association for Computational Linguistics 
+    conference_short_desc: <strong>ACL Findings 2025</strong>
     code: https://github.com/fanxiao15/CMIE 
     image: ./assets/img/2025_ACL_Findings_CMIE.png
 
   - title: "IMRRF: Integrating Multi-Source Retrieval and Redundancy Filtering for LLM-based Fake News Detection"
     authors: Dayang Li, <u><strong>Fanxiao Li</strong></u>, Bingbing Song, Li Tang, Wei Zhou
     conference_short: NAACL 
-    conference: Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics <strong>(NAACL)</strong>, 2025.
+    conference: Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics
+    conference_short_desc: <strong>NAACL 2025</strong>
     pdf: https://aclanthology.org/2025.naacl-long.461/
     code: https://github.com/quark233/IMRRF
     image: ./assets/img/2025_NAACL_IMRRF.png
