@@ -23,6 +23,7 @@ main:
     conference: The 64rd Annual Meeting of the Association for Computational Linguistics 
     conference_short_desc: <strong>ACL 2026</strong>
     pdf: https://arxiv.org/abs/2510.11423
+    code: https://github.com/jiayingwu19/CrowdNotesPlus
     image: ./assets/img/2026_ACL_CrowdNotes.png
 
   - title: "Correct When Paired, Wrong When Split: Decoupling and Editing Modality-Specific Neurons in MLLMs"
@@ -31,6 +32,7 @@ main:
     conference: The 64rd Annual Meeting of the Association for Computational Linguistics 
     conference_short_desc: <strong>ACL 2026</strong>
     # pdf: https://arxiv.org/abs/2601.05563
+    code: https://github.com/TingchaoFu/DECODE
     image: ./assets/img/2026_ACL_DecoderEdit.png
 
   - title: "Seeing Through Deception: Uncovering Misleading Creator Intent in Multimodal News with Vision-Language Models"

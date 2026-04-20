@@ -19,13 +19,13 @@ My research interests focus on <span style="font-weight:900; color:#111;">trustw
 ## 🔥 News
 <div style="max-height: 180px; overflow-y: auto; border: 2px solid #f3f3f3; border-radius: 8px; padding: 12px; background: #fdfdfd; box-shadow: 0 2px 8px rgba(0,0,0,0.03);">
 	<ul style="margin:0; padding-left: 18px;">
-		<li><span style="color:darkred;">[Apr. 2026]</span> Three papers accepted to <a href="https://2026.aclweb.org/">ACL 2026 Main!</a></li>
-		<li><span style="color:darkred;">[Jan. 2026]</span> One paper accepted to <a href="https://iclr.cc/Conferences/2026">ICLR 2026!</a></li>
-		<li><span style="color:darkred;">[Jan. 2026]</span> I presented our work at <a href="https://wing.comp.nus.edu.sg/event/26-01-21-ssnlp/">SSNLP! </a></li>
-		<li><span style="color:darkred;">[Nov. 2025]</span> One paper accepted to <a href="https://aaai.org/conference/aaai/aaai-26/">AAAI 2026!</a> Let's connect in Singapore!</li>
-		<li><span style="color:darkred;">[Sep. 2025]</span> I started my visiting at <a href="https://wing.comp.nus.edu.sg">WING!</a></li>
-		<li><span style="color:darkred;">[May. 2025]</span> One paper accepted to <a href="https://2025.aclweb.org">ACL 2025!</a></li>
-		<li><span style="color:darkred;">[Jan. 2025]</span> One paper accepted to <a href="https://2025.naacl.org">NAACL 2025!</a></li>
+		<li><span style="color:black; font-weight: bold;">[Apr. 2026]</span> Three papers accepted to <a href="https://2026.aclweb.org/">ACL 2026 Main!</a></li>
+		<li><span style="color:black; font-weight: bold;">[Jan. 2026]</span> One paper accepted to <a href="https://iclr.cc/Conferences/2026">ICLR 2026!</a></li>
+		<li><span style="color:black; font-weight: bold;">[Jan. 2026]</span> I presented our work at <a href="https://wing.comp.nus.edu.sg/event/26-01-21-ssnlp/">SSNLP! </a></li>
+		<li><span style="color:black; font-weight: bold;">[Nov. 2025]</span> One paper accepted to <a href="https://aaai.org/conference/aaai/aaai-26/">AAAI 2026!</a> Let's connect in Singapore!</li>
+		<li><span style="color:black; font-weight: bold;">[Sep. 2025]</span> I started my visiting at <a href="https://wing.comp.nus.edu.sg">WING!</a></li>
+		<li><span style="color:black; font-weight: bold;">[May. 2025]</span> One paper accepted to <a href="https://2025.aclweb.org">ACL 2025!</a></li>
+		<li><span style="color:black; font-weight: bold;">[Jan. 2025]</span> One paper accepted to <a href="https://2025.naacl.org">NAACL 2025!</a></li>
 	</ul>
 </div>
 <br>
