@@ -10,10 +10,10 @@ I am currently pursuing my Ph.D. at [Yunnan University](https://www.ynu.edu.cn/)
 
 ## 💡 Research Interests
 
-My research interests focus on <span style="font-weight:900; color:#111;">trustworthy social intelligence</span>, with an emphasis on the reliable perception, safe interaction, and trustworthy decision-making of agentic systems in complex social information environments, as well as the detection and mitigation of mis/disinformation. My research includes:
+My research interests focus on <span style="font-weight:900; color:#111;">trustworthy social intelligence</span>, with an emphasis on the reliable perception, safe interaction, and trustworthy decision-making of agentic systems in complex social information environments, as well as the detection and governance of mis/disinformation. My research includes:
 
-- <span style="font-weight:900; color:#111;">Trustworthy Agentic Systems:</span> I investigate how agentic systems can operate reliably in complex social information environments, with a focus on resisting malicious manipulation, mitigating hallucinations and misinformation, and enhancing robustness, reliability, and social intelligence.
-- <span style="font-weight:900; color:#111;">Mis/disinformation Governance:</span> I explore various forms of information distortion in social networks, including factual inaccuracies, news framing, news diversity, and information omission, with the goal of developing advanced methods for detection, analysis, and intervention to reduce their impact on social cognition and public decision-making.
+- <span style="font-weight:900; color:#111;">Trustworthy Agentic Systems:</span> I study how agentic systems can operate reliably in complex social information environments, with a focus on robustness and trustworthy social intelligence. (e.g., [FlowSteer](https://arxiv.org/abs/2605.11514))
+- <span style="font-weight:900; color:#111;">Mis/disinformation Governance:</span> I study information distortions in social networks and develop approaches to mitigate their impact on social cognition and public decision-making. (e.g., [OMGuard](https://arxiv.org/abs/2601.05563), [DriftBench](https://arxiv.org/abs/2508.12711), [DeceptionDecoded](https://openreview.net/pdf?id=02NbD16OnA))
 
 
 ## 🔥 News
@@ -34,6 +34,8 @@ My research interests focus on <span style="font-weight:900; color:#111;">trustw
 ## 📝 Selected Publications/Preprints
 
 {% include_relative _includes/arxiv.md %}
+
+{% include_relative _includes/services.md %}
 
 {%- comment -%}
 {% include_relative _includes/publications_2026.md %}

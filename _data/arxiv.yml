@@ -1,12 +1,21 @@
 main:
 
-  # - title: "The Facade of Truth: Uncovering and Mitigating LLM Susceptibility to Deceptive Evidence"
-  #   authors: Herun Wan, Jiaying Wu, Minnan Luo, <u><strong>Fanxiao Li</strong></u>, Zhi Zeng, Min-Yen Kan
-  #   conference_short: Preprint 
-  #   conference: arXiv 2601.05478, 2026.
-  #   pdf: https://arxiv.org/abs/2601.05478
-  #   code: https://github.com/whr000001/MisBelief
-  #   image: ./assets/img/MisBelief.png
+  - title: "FlowSteer: Prompt-Only Workflow Steering Exposes Planning-Time Vulnerabilities in Multi-Agent LLM Systems"
+    authors: <u><strong>Fanxiao Li</strong></u>, Jiaying Wu, Tingchao Fu, Natasha Jaques, Wei Zhou, Min-Yen Kan
+    conference_short: Preprint 
+    conference: arXiv 2605.11514, 2026. 
+    # conference_short_desc: <strong>ACL 2026</strong>
+    pdf: https://arxiv.org/abs/2605.11514
+    # code: https://github.com/fanxiao15/OMGuard
+    image: ./assets/img/FlowSteer.png
+
+  - title: "The Facade of Truth: Uncovering and Mitigating LLM Susceptibility to Deceptive Evidence"
+    authors: Herun Wan, Jiaying Wu, Minnan Luo, <u><strong>Fanxiao Li</strong></u>, Zhi Zeng, Min-Yen Kan
+    conference_short: Preprint 
+    conference: arXiv 2601.05478, 2026.
+    pdf: https://arxiv.org/abs/2601.05478
+    code: https://github.com/whr000001/MisBelief
+    image: ./assets/img/MisBelief.png
 
   - title: "What's Left Unsaid? Detecting and Correcting Misleading Omissions in Multimodal News Previews"
     authors: <u><strong>Fanxiao Li</strong></u>, Jiaying Wu, Tingchao Fu, Dayang Li, Herun Wan, Wei Zhou, Min-Yen Kan
