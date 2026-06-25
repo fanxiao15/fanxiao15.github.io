@@ -45,7 +45,7 @@ main:
     authors: Jiaying Wu<sup>*</sup>, Zihang Fu<sup>*</sup>, Haonan Wang, <u><strong>Fanxiao Li</strong></u>, Jiafeng Guo, Preslav Nakov, Min-Yen Kan
     conference_short: ACL 
     conference: The 64rd Annual Meeting of the Association for Computational Linguistics 
-    conference_short_desc: <strong>ACL 2026 (Oral)</strong>
+    conference_short_desc: <strong>ACL 2026</strong>
     pdf: https://aclanthology.org/2026.acl-long.233/
     code: https://github.com/jiayingwu19/CrowdNotesPlus
     image: ./assets/img/2026_ACL_CrowdNotes.png
