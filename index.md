@@ -39,8 +39,10 @@ My research interests focus on <span style="font-weight:900; color:#111;">trustw
 ## 📋 Service
 
 #### Conference Reviewer / PC Member
-- NeurIPS, ACL Rolling Review, AAAI, ACM MM, DASFAA, ICME
+- ACL Rolling Review, NeurIPS (2026), AAAI (2026, 2027), ACM MM (2026)
 
+#### Journal Reviewer
+- IEEE T-DSC
 
 ## 🎖 Honors and Awards
 
