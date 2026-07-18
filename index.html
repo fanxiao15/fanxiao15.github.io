@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fanxiao Li | Homepage</title>
+    <meta
+      name="description"
+      content="Academic homepage of Fanxiao Li, Ph.D. student working on trustworthy social intelligence, agentic systems, and misinformation governance."
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="brand" id="site-brand"></div>
+      <nav class="nav" id="site-nav">
+        <a class="active" href="./" data-section="about">About</a>
+        <a href="./news/" data-section="news">News</a>
+        <a href="./papers/" data-section="papers">Publications</a>
+        <a href="./service/" data-section="service">Services</a>
+        <a href="./awards/" data-section="awards">Honors & Awards</a>
+        <a href="./education/" data-section="education">Education</a>
+      </nav>
+      <a class="nav-button" id="nav-contact" href="#" aria-label="Contact"></a>
+    </header>
+
+    <main class="page">
+      <aside class="sidebar">
+        <div class="portrait-card">
+          <img id="profile-avatar" src="./assets/avatar.jpg" alt="Profile portrait" />
+        </div>
+
+        <div class="profile-block">
+          <h1 id="profile-name"></h1>
+          <p class="role" id="profile-role"></p>
+          <p class="affiliation" id="profile-affiliation"></p>
+        </div>
+
+        <div class="icon-grid" id="social-links" aria-label="social links"></div>
+
+        <section class="side-card" id="opening-card">
+          <h2 id="opening-title"></h2>
+          <p id="opening-text"></p>
+        </section>
+      </aside>
+
+      <section class="content">
+        <section class="content-section welcome-section">
+          <p class="welcome-text"><strong>👋 Welcome to Fanxiao's Homepage!</strong></p>
+        </section>
+
+        <section id="about" class="content-section">
+          <h2>About</h2>
+          <div id="about-body"></div>
+          <ul class="about-list" id="about-list"></ul>
+        </section>
+
+        <section id="news" class="content-section">
+          <div class="section-head">
+            <h2>News</h2>
+            <a href="#" class="view-all" id="news-view-all">View All</a>
+          </div>
+          <div class="news-list" id="news-list"></div>
+        </section>
+
+        <section id="papers" class="content-section">
+          <div class="section-head">
+            <h2>Selected Publications</h2>
+            <a href="./papers/" class="view-all" id="papers-view-all">View All</a>
+          </div>
+          <p class="publication-note">
+            Please see my
+            <a href="https://scholar.google.com/citations?user=jUOhfIUAAAAJ" target="_blank" rel="noreferrer noopener">Google Scholar</a>
+            for a full, up-to-date list.
+          </p>
+          <p class="publication-note publication-note-secondary">
+            <em>(* indicates equal contribution, † indicates corresponding author.)</em>
+          </p>
+          <div id="papers-list"></div>
+        </section>
+      </section>
+    </main>
+
+    <div class="bib-modal" id="bib-modal" hidden>
+      <div class="bib-modal-backdrop" data-bib-close></div>
+      <div class="bib-modal-panel" role="dialog" aria-modal="true" aria-labelledby="bib-modal-title">
+        <div class="bib-modal-head">
+          <h2 id="bib-modal-title">BibTeX</h2>
+          <button class="bib-modal-close" id="bib-modal-close" type="button" aria-label="Close">
+            ×
+          </button>
+        </div>
+        <pre class="bib-modal-content" id="bib-modal-content"></pre>
+        <div class="bib-modal-actions">
+          <button class="bib-action-button" id="bib-copy-button" type="button">Copy</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./data/profile.js"></script>
+    <script src="./data/about.js"></script>
+    <script src="./data/news.js"></script>
+    <script src="./data/selected_publications.js"></script>
+    <script src="./data/service.js"></script>
+    <script src="./data/education.js"></script>
+    <script src="./data/publications/all_publications.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

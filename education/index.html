@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Education | Fanxiao Li</title>
+    <meta name="description" content="Education page of Fanxiao Li." />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body data-page="education">
+    <header class="site-header">
+      <div class="brand" id="site-brand"></div>
+      <nav class="nav" id="site-nav">
+        <a href="../" data-section="about">About</a>
+        <a href="../news/" data-section="news">News</a>
+        <a href="../papers/" data-section="papers">Publications</a>
+        <a href="../service/" data-section="service">Services</a>
+        <a href="../awards/" data-section="awards">Honors & Awards</a>
+        <a class="active" href="./" data-section="education">Education</a>
+      </nav>
+      <a class="nav-button" id="nav-contact" href="#" aria-label="Contact"></a>
+    </header>
+
+    <main class="subpage">
+      <section class="subpage-section">
+        <div class="section-head">
+          <h1 class="subpage-title">Education</h1>
+        </div>
+        <div class="timeline timeline-page" id="education-list"></div>
+        <section class="subpage-section subpage-subsection">
+          <div class="section-head">
+            <h2 class="subpage-subtitle">Internships</h2>
+          </div>
+          <div class="timeline timeline-page" id="internship-list"></div>
+        </section>
+      </section>
+    </main>
+
+    <script src="../data/profile.js"></script>
+    <script src="../data/about.js"></script>
+    <script src="../data/news.js"></script>
+    <script src="../data/selected_publications.js"></script>
+    <script src="../data/service.js"></script>
+    <script src="../data/education.js"></script>
+    <script src="../data/publications/all_publications.js"></script>
+    <script src="../app.js"></script>
+  </body>
+</html>
