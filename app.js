@@ -51,8 +51,10 @@ function renderProfile() {
   document.getElementById("profile-affiliation").innerHTML = profileData.affiliations.join("<br />");
 
   const contact = document.getElementById("nav-contact");
-  contact.href = profileData.contactHref;
-  contact.innerHTML = iconMarkup.email;
+  if (contact) {
+    contact.href = profileData.contactHref;
+    contact.innerHTML = iconMarkup.email;
+  }
 
   const links = document.getElementById("social-links");
   profileData.socials.forEach((item) => {
