@@ -32,7 +32,8 @@ function renderBrand() {
   if (!brand) {
     return;
   }
-  brand.innerHTML = `${profileData.brand.en} <span>${profileData.brand.zh}</span>`;
+  const homeHref = document.body.dataset.page ? "../" : "./";
+  brand.innerHTML = `<a class="brand-link" href="${homeHref}" aria-label="Back to homepage">${profileData.brand.en} <span>${profileData.brand.zh}</span></a>`;
   if (name) {
     name.innerHTML = `<span class="name-en">${profileData.brand.en}</span><span class="name-zh">${profileData.brand.zh}</span>`;
   }
@@ -145,6 +146,9 @@ function renderPublications() {
     const tagMarkup = tagList
       .map((tag) => `<span class="paper-tag">${tag}</span>`)
       .join("");
+    const tldrMarkup = item.tldr
+      ? `<p class="paper-summary">${renderInlineMarkdown(item.tldr)}</p>`
+      : "";
     article.innerHTML = `
       <div class="paper-media">
         <div class="paper-tag-list">${tagMarkup}</div>
@@ -156,10 +160,11 @@ function renderPublications() {
         <h3>${renderInlineMarkdown(item.title)}</h3>
         <p class="authors">${renderInlineMarkdown(item.authors)}</p>
         <p class="venue">${renderInlineMarkdown(item.venue)}</p>
+        ${tldrMarkup}
         <div class="paper-links">
-          <button class="paper-link${hasBib ? "" : " is-disabled"} bib-trigger" type="button" data-bib="${encodeURIComponent(item.bib || "")}" ${hasBib ? "" : "disabled"}>BibTeX</button>
           <a class="paper-link" href="${item.pdf}" target="_blank" rel="noreferrer noopener">Paper</a>
           <a class="paper-link" href="${item.code}" target="_blank" rel="noreferrer noopener">Code</a>
+          <button class="paper-link${hasBib ? "" : " is-disabled"} bib-trigger" type="button" data-bib="${encodeURIComponent(item.bib || "")}" ${hasBib ? "" : "disabled"}>BibTeX</button>
         </div>
       </div>
     `;
@@ -178,27 +183,68 @@ function createActionButton(label, href, extraClass = "") {
   return `<a class="papers-action ${extraClass}" href="${href}" target="_blank" rel="noreferrer noopener">${label}</a>`;
 }
 
-function renderPapersPage() {
+let currentPapersView = "list";
+
+function getPublicationSearchText(item) {
+  return [
+    item.title,
+    item.authors,
+    item.venue,
+    item.badge,
+    item.highlight,
+    item.type
+  ]
+    .filter(Boolean)
+    .join(" ")
+    .replace(/<[^>]*>/g, " ")
+    .toLowerCase();
+}
+
+function renderPapersPage(filterQuery = "", publicationFilter = "") {
   const root = document.getElementById("papers-page-list");
   if (!root || !window.allPublicationsData) {
     return;
   }
   root.innerHTML = "";
+  const query = filterQuery.trim().toLowerCase();
+  const selectedFilter = publicationFilter.trim();
+  let visibleCount = 0;
 
   allPublicationsData.forEach((section) => {
-    const wrapper = document.createElement("section");
-    wrapper.className = "papers-year-section";
+    if (selectedFilter.startsWith("section:") && section.label !== selectedFilter.slice(8)) {
+      return;
+    }
 
-    const itemsMarkup = section.items.map((item) => `
-      <article class="papers-entry">
-        <div class="papers-entry-main">
-          <div class="papers-entry-badges">
-            <span class="papers-entry-badge">${item.badge}</span>
-            ${item.highlight ? `<span class="papers-entry-badge papers-entry-badge-secondary">${item.highlight}</span>` : ""}
-          </div>
-          <div class="papers-entry-text">
-            <p class="papers-entry-authors">${renderInlineMarkdown(item.authors)}</p>
+    const visibleItems = section.items.filter((item) => {
+      const matchesQuery = !query || getPublicationSearchText(item).includes(query);
+      const matchesType = !selectedFilter.startsWith("type:") || item.type === selectedFilter.slice(5);
+      return matchesQuery && matchesType;
+    });
+
+    if (!visibleItems.length) {
+      return;
+    }
+
+    const wrapper = document.createElement("section");
+    wrapper.className = `papers-year-section papers-year-section-${currentPapersView}`;
+    visibleCount += visibleItems.length;
+
+    const itemsMarkup = visibleItems.map((item) => {
+      const badgeType = item.type === "journal" ? "journal" : "conference";
+      const cardMeta = item.highlight
+        ? `<span class="papers-card-highlight">${item.highlight}</span>`
+        : "";
+      if (currentPapersView === "card") {
+        return `
+          <article class="papers-card-entry">
+            <div class="papers-card-head">
+              <div class="papers-card-badges">
+                <span class="papers-entry-badge papers-entry-badge-${badgeType}">${item.badge}</span>
+                ${cardMeta}
+              </div>
+            </div>
             <h3 class="papers-entry-title"><a href="${item.paper}" target="_blank" rel="noreferrer noopener">${renderInlineMarkdown(item.title)}</a></h3>
+            <p class="papers-entry-authors">${renderInlineMarkdown(item.authors)}</p>
             <p class="papers-entry-venue">${renderInlineMarkdown(item.venue)}</p>
             <div class="papers-entry-actions">
               ${createActionButton("BibTeX", item.bib)}
@@ -206,16 +252,85 @@ function renderPapersPage() {
               ${createActionButton("Code", item.code)}
               ${createActionButton("Presentation", item.presentation)}
             </div>
+          </article>
+        `;
+      }
+      return `
+        <article class="papers-entry">
+          <div class="papers-entry-main">
+            <div class="papers-entry-badges">
+              <span class="papers-entry-badge papers-entry-badge-${badgeType}">${item.badge}</span>
+              ${item.highlight ? `<span class="papers-entry-highlight">${item.highlight}</span>` : ""}
+            </div>
+            <div class="papers-entry-text">
+              <p class="papers-entry-authors">${renderInlineMarkdown(item.authors)}</p>
+              <h3 class="papers-entry-title"><a href="${item.paper}" target="_blank" rel="noreferrer noopener">${renderInlineMarkdown(item.title)}</a></h3>
+              <p class="papers-entry-venue">${renderInlineMarkdown(item.venue)}</p>
+              <div class="papers-entry-actions">
+                ${createActionButton("BibTeX", item.bib)}
+                ${createActionButton("Paper", item.paper)}
+                ${createActionButton("Code", item.code)}
+                ${createActionButton("Presentation", item.presentation)}
+              </div>
+            </div>
           </div>
-        </div>
-      </article>
-    `).join("");
+        </article>
+      `;
+    }).join("");
 
     wrapper.innerHTML = `
       <h2 class="papers-year-title">${section.label}</h2>
       <div class="papers-year-list">${itemsMarkup}</div>
     `;
     root.appendChild(wrapper);
+  });
+
+  if (!visibleCount) {
+    root.innerHTML = `<p class="papers-empty">No publications match your search.</p>`;
+  }
+}
+
+function setupPublicationFilter() {
+  const input = document.getElementById("publication-filter");
+  const sectionSelect = document.getElementById("publication-year-filter");
+  const viewButtons = document.querySelectorAll(".publication-view-toggle button");
+  if (!input || !sectionSelect || !window.allPublicationsData) {
+    return;
+  }
+
+  [
+    { label: "Conference", value: "type:conference" },
+    { label: "Journal", value: "type:journal" }
+  ].forEach((filterOption) => {
+    const option = document.createElement("option");
+    option.value = filterOption.value;
+    option.textContent = filterOption.label;
+    sectionSelect.appendChild(option);
+  });
+
+  allPublicationsData.forEach((section) => {
+    const option = document.createElement("option");
+    option.value = `section:${section.label}`;
+    option.textContent = section.label;
+    sectionSelect.appendChild(option);
+  });
+
+  const applyFilters = () => {
+    renderPapersPage(input.value, sectionSelect.value);
+  };
+
+  input.addEventListener("input", applyFilters);
+  sectionSelect.addEventListener("change", applyFilters);
+  viewButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      currentPapersView = button.dataset.view || "list";
+      viewButtons.forEach((viewButton) => {
+        const isActive = viewButton === button;
+        viewButton.classList.toggle("is-active", isActive);
+        viewButton.setAttribute("aria-pressed", String(isActive));
+      });
+      applyFilters();
+    });
   });
 }
 
@@ -283,6 +398,22 @@ function renderSimpleList(id, items) {
   });
 }
 
+function renderAwards() {
+  const root = document.getElementById("awards-list");
+  if (!root || !window.awardsData || !Array.isArray(window.awardsData)) {
+    return;
+  }
+  root.innerHTML = "";
+  awardsData.forEach((item) => {
+    const match = item.match(/^(\d{4}\.\d{2})\s+(.+)$/);
+    const date = match ? match[1] : "";
+    const text = match ? match[2] : item;
+    const article = document.createElement("article");
+    article.innerHTML = `<time>${date}</time><p>${text}</p>`;
+    root.appendChild(article);
+  });
+}
+
 function renderServiceGroups() {
   const root = document.getElementById("service-list");
   if (!root || !serviceData.services || !Array.isArray(serviceData.services)) {
@@ -339,8 +470,9 @@ renderAbout();
 renderNews();
 renderPublications();
 renderPapersPage();
+setupPublicationFilter();
 renderServiceGroups();
-renderSimpleList("awards-list", serviceData.awards);
+renderAwards();
 renderEducation();
 renderInternships();
 updateActiveNav();

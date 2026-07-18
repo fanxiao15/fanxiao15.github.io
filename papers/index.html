@@ -31,6 +31,22 @@
         <p class="publication-note publication-note-secondary">
           <em>(* indicates equal contribution, † indicates corresponding author.)</em>
         </p>
+        <div class="publication-filter">
+          <label class="visually-hidden" for="publication-filter">Search publications</label>
+          <input id="publication-filter" type="search" placeholder="Search / Filter publications..." autocomplete="off" />
+          <label class="visually-hidden" for="publication-year-filter">Filter by year or type</label>
+          <select id="publication-year-filter" aria-label="Filter publications by year or type">
+            <option value="">All</option>
+          </select>
+        </div>
+        <div class="publication-view-toggle" role="group" aria-label="Switch publication view">
+          <button class="is-active" type="button" data-view="list" aria-pressed="true" aria-label="List view">
+            <span class="view-icon view-icon-list" aria-hidden="true"></span>
+          </button>
+          <button type="button" data-view="card" aria-pressed="false" aria-label="Card view">
+            <span class="view-icon view-icon-card" aria-hidden="true"></span>
+          </button>
+        </div>
         <div id="papers-page-list"></div>
       </section>
     </main>
@@ -54,6 +70,7 @@
     <script src="../data/news.js"></script>
     <script src="../data/selected_publications.js"></script>
     <script src="../data/service.js"></script>
+    <script src="../data/awards.js"></script>
     <script src="../data/education.js"></script>
     <script src="../data/publications/all_publications.js"></script>
     <script src="../app.js"></script>

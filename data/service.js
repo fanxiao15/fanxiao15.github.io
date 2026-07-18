@@ -14,10 +14,5 @@ window.serviceData = {
         "Expert Systems with Applications"
       ]
     }
-  ],
-  awards: [
-    "2025.05 China Scholarship Council Scholarship",
-    "2024.04 Outstanding Graduate of Yunnan University",
-    "2023.12 China National Scholarship"
   ]
 };
