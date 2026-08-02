@@ -116,6 +116,18 @@ window.allPublicationsData = [
         presentation: "https://underline.io/lecture/141452-drifting-away-from-truth-genai-driven-news-diversity-challenges-lvlm-based-misinformation-detection"
       },
       {
+        title: "Say What I Want! Prompt-Agnostic Adversarial Attacks on Large Vision Language Models",
+        authors: "Tingchao Fu, Renyang Liu<sup>†</sup>, Ziyao Liu, Peiyuan Si,  <u><strong>Fanxiao Li</strong></u>, Jinhong Zhang, Wei Zhou<sup>†</sup>",
+        venue: "IEEE Transactions on Multimedia",
+        type: "journal",
+        badge: "TMM'26",
+        highlight: "",
+        paper: "https://ieeexplore.ieee.org/document/11631863",
+        code: "https://github.com/TheChao1230/PAA",
+          bib: "@article{fu2026saywhat,\n  title={Say What I Want! Prompt-Agnostic Adversarial Attacks on Large Vision Language Models},\n  author={Fu, Tingchao and Liu, Renyang and Liu, Ziyao and Si, Peiyuan and Li, Fanxiao and Zhang, Jinhong and Zhou, Wei},\n  journal={IEEE Transactions on Multimedia},\n  year={2026},\n  volume={},\n  number={},\n  pages={1--13},\n  keywords={Cross-Prompt Attack; Adversarial Example; Adversarial Attack; Visual Question Answering; Large Vision Language Model; Model Vulnerability},\n  doi={10.1109/TMM.2026.3719154}\n}",
+        presentation: ""
+      },
+      {
         title: "Memory poisoning attacks on retrieval-augmented Large Language Model agents via deceptive semantic reasoning",
         authors: "Hao Jing, <u><strong>Fanxiao Li</strong></u>, Yunyun Dong, Wei Zhou<sup>†</sup>, Renyang Liu<sup>†</sup>,",
         venue: "Engineering Applications of Artificial Intelligence",

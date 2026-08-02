@@ -618,6 +618,16 @@ h3 {
   vertical-align: middle;
 }
 
+.paper-tag-highlight {
+  display: inline-block;
+  border-color: transparent;
+  background: transparent;
+  color: #d91f2f;
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 1.25;
+}
 
 .paper-card h3 {
   margin: 0 0 4px;

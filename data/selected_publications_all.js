@@ -23,7 +23,8 @@ window.publicationsData = {
       image: "./assets/publications/2026_ACL_OMGuard.png"
     },
     {
-      tags: ["ACL'26", "Oral"],
+      tags: ["ACL'26"],
+      highlight: "Oral",
       title: "Beyond the Crowd: LLM-Augmented Community Notes for Governing Health Misinformation",
       authors: "Jiaying Wu<sup>*</sup>, Zihang Fu<sup>*</sup>, Haonan Wang, <u><strong>Fanxiao Li</strong></u>, Jiafeng Guo, Preslav Nakov, Min-Yen Kan",
       venue: "The 64rd Annual Meeting of the Association for Computational Linguistics",

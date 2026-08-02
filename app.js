@@ -148,12 +148,15 @@ function renderPublications() {
     const tagMarkup = tagList
       .map((tag) => `<span class="paper-tag">${tag}</span>`)
       .join("");
+    const highlightMarkup = item.highlight
+      ? `<span class="paper-tag-highlight">${item.highlight}</span>`
+      : "";
     const tldrMarkup = item.tldr
       ? `<p class="paper-summary">${renderInlineMarkdown(item.tldr)}</p>`
       : "";
     article.innerHTML = `
       <div class="paper-media">
-        <div class="paper-tag-list">${tagMarkup}</div>
+        <div class="paper-tag-list">${tagMarkup}${highlightMarkup}</div>
         <a class="paper-figure" href="${item.pdf}" target="_blank" rel="noreferrer noopener" aria-label="${item.title}">
           <img src="${item.image}" alt="${item.title}" />
         </a>
